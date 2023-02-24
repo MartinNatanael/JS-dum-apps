@@ -18,12 +18,11 @@
         <h1 id="saludo"></h1>
     </div>
     <input type="text" id="entrada" class="form-control form-control-sm m-2">
-    <div class="">
-    <button id="boton" class="btn btn-primary">Saludar</button>
-    <button id="botonBorrar" class="btn btn-primary">Borrar</button>
+    <div class="text-center">
+    <button id="boton" class="btn btn-primary p-3 fs-3">Saludar</button>
+    <button id="botonBorrar" class="btn btn-info p-3 fs-3 text-light">Borrar</button>
     </div>
     <p id="cantidades"></p>
-     
 </div>
     <script>
         let saludo = document.getElementById('saludo')
@@ -55,6 +54,13 @@
             cantidades.remove();
         })
     </script>
+
+    <div class="separador text-center p-5 bg-warning">
+        <div class="loader">
+            <span>Separador</span>
+            <span>Separador</span>
+        </div>
+    </div>
 
     <!--Fin App que saluda personas -->
 <!-- bootstrap -->
